@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Dear Diary</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email</string>
+    <string name="Password">Password</string>
+    <string name="signInIn">SignIn</string>
+    <string name="signUp">Don\'t have account yet ?, SignUp..!</string>
+    <string name="signUpBtn">SignUp</string>
+    <string name="SignInBtn">Have an account.?, SignIn ..!</string>
+    <string name="confirmPassword">Re-Enter Password</string>
+    <string name="userName">Full Name</string>
+    <string name="signOut">Sign Out</string>
+    <string name="addPost">Add Post</string>
+    <string name="postTitle">PostTitle</string>
+    <string name="postDesc">Post Description</string>
+    <string name="PostBtn">Post</string>
+    <string name="title">Add Post Title</string>
+    <string name="PosrDescription">Add Post Description</string>
+</resources>

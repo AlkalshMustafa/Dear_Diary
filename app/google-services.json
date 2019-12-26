@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "953052998073",
+    "firebase_url": "https://yanulka-diary.firebaseio.com",
+    "project_id": "yanulka-diary",
+    "storage_bucket": "yanulka-diary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953052998073:android:d603c5a9041711e03eee68",
+        "android_client_info": {
+          "package_name": "com.example.yanulkadiary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953052998073-d8co3mrkpegijbtekj877uqqnorblh6g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yanulkadiary",
+            "certificate_hash": "629bd065f12ead8ee2bcc0e323a3fba91efe8c4f"
+          }
+        },
+        {
+          "client_id": "953052998073-0p6dc0jim9g9592tlq73tfk6g87ojuqj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL9yNNaEl-ltzOpZ4SXiU6sgTrQYJnaGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "953052998073-0p6dc0jim9g9592tlq73tfk6g87ojuqj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

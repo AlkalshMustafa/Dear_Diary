@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@color/black"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="10dp"
+        android:layout_marginBottom="10dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            >
+
+            <ImageView
+                android:id="@+id/profileImgID"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:adjustViewBounds="true"
+                android:cropToPadding="true"
+                android:background="@drawable/input_outline"
+                android:foregroundGravity="clip_horizontal|center"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/image_two" />
+
+            <TextView
+                android:id="@+id/fullNameID"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/profileImgID"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="16dp"
+                android:paddingLeft="10dp"
+                android:text="User"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/timestampList"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textColor="@color/white"
+                android:layout_below="@+id/fullNameID"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_toEndOf="@+id/profileImgID"
+                android:layout_toRightOf="@+id/profileImgID"
+                android:text="Date created:"
+                android:textSize="11dp"
+                android:textStyle="italic" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profileImgID"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@drawable/input_outline">
+
+
+
+            <ImageView
+                android:id="@+id/crdImageViewID"
+                android:layout_width="386dp"
+                android:layout_height="225dp"
+                android:layout_gravity="center"
+                android:adjustViewBounds="true"
+                android:cropToPadding="false"
+                android:padding="5dp"
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/image_three" />
+
+            <TextView
+
+                android:id="@+id/titleEdt"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text="@string/postTitle"
+                android:paddingTop="5dp"
+                android:paddingLeft="15dp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/postDescID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/postDesc"
+                android:paddingBottom="15dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
